@@ -1,0 +1,214 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do PIPO_blockcipher_verilog_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/PIPO_Definitions.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/PIPO_Definitions.sv 
+# -- Compiling package PIPODefinitions
+# 
+# Top level modules:
+# 	--none--
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/xorKey.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/xorKey.sv 
+# -- Compiling package xorKey_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module xorKey
+# 
+# Top level modules:
+# 	xorKey
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/xorData.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/xorData.sv 
+# -- Compiling package xorData_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module xorData
+# 
+# Top level modules:
+# 	xorData
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/S-layer.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/S-layer.sv 
+# -- Compiling package S2dlayer_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module S_layer
+# 
+# Top level modules:
+# 	S_layer
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/R-layer.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/R-layer.sv 
+# -- Compiling package R2dlayer_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module R_layer
+# 
+# Top level modules:
+# 	R_layer
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/make_FirstData.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/make_FirstData.sv 
+# -- Compiling package make_FirstData_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module make_FirstData
+# 
+# Top level modules:
+# 	make_FirstData
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/Buffer.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/Buffer.sv 
+# -- Compiling package Buffer_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module Buffer
+# 
+# Top level modules:
+# 	Buffer
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/PIPO_blockcipher_verilog.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/PIPO_blockcipher_verilog.sv 
+# -- Compiling package PIPO_blockcipher_verilog_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module PIPO_blockcipher_verilog
+# 
+# Top level modules:
+# 	PIPO_blockcipher_verilog
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/setCounter.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/setCounter.sv 
+# -- Compiling package setCounter_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module setCounter
+# 
+# Top level modules:
+# 	setCounter
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/runRound.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/runRound.sv 
+# -- Compiling package runRound_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module runRound
+# 
+# Top level modules:
+# 	runRound
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/expandKey_0.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/expandKey_0.sv 
+# -- Compiling package expandKey_0_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module expandKey_0
+# 
+# Top level modules:
+# 	expandKey_0
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/expandKey_1.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/expandKey_1.sv 
+# -- Compiling package expandKey_1_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module expandKey_1
+# 
+# Top level modules:
+# 	expandKey_1
+# End time: 03:43:56 on Nov 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog {D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:43:56 on Nov 30,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog" D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv 
+# -- Compiling package tb_PIPO_sv_unit
+# -- Importing package PIPODefinitions
+# -- Compiling module tb_PIPO
+# 
+# Top level modules:
+# 	tb_PIPO
+# End time: 03:43:57 on Nov 30,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_PIPO
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_PIPO 
+# Start time: 03:43:57 on Nov 30,2021
+# Loading sv_std.std
+# Loading work.PIPODefinitions
+# Loading work.tb_PIPO_sv_unit
+# Loading work.tb_PIPO
+# Loading work.PIPO_blockcipher_verilog_sv_unit
+# Loading work.PIPO_blockcipher_verilog
+# Loading work.expandKey_0_sv_unit
+# Loading work.expandKey_0
+# Loading work.expandKey_1_sv_unit
+# Loading work.expandKey_1
+# Loading work.make_FirstData_sv_unit
+# Loading work.make_FirstData
+# Loading work.xorKey_sv_unit
+# Loading work.xorKey
+# Loading work.xorData_sv_unit
+# Loading work.xorData
+# Loading work.Buffer_sv_unit
+# Loading work.Buffer
+# Loading work.setCounter_sv_unit
+# Loading work.setCounter
+# Loading work.runRound_sv_unit
+# Loading work.runRound
+# Loading work.S2dlayer_sv_unit
+# Loading work.S_layer
+# Loading work.R2dlayer_sv_unit
+# Loading work.R_layer
+# ** Warning: (vsim-3015) D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv(11): [PCDPC] - Port size (64) does not match connection size (960) for port 'result'. The port definition is at: D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/PIPO_blockcipher_verilog.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_PIPO/run File: D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/PIPO_blockcipher_verilog.sv
+# ** Warning: (vsim-3839) D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv(7): Variable '/tb_PIPO/result', driven via a port connection, is multiply driven. See D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_PIPO File: D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv(22)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_PIPO
+# 1
+# Break in Module tb_PIPO at D:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/tb_PIPO.sv line 22
+# End time: 03:44:20 on Nov 30,2021, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2

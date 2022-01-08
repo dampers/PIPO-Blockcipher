@@ -1,0 +1,10 @@
+import PIPODefinitions::*;
+
+module xorData(input state_t data, input state_t key,
+					output state_t result);
+					
+		assign result = {key[0]^data[0], key[1]^data[1], key[2]^data[2], key[3]^data[3], key[4]^data[4], key[5]^data[5], key[6]^data[6],
+									key[7]^data[7]};
+endmodule
+
+

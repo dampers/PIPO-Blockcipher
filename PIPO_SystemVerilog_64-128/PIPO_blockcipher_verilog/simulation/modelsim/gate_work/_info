@@ -1,0 +1,35 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/documents/PIPO_system_verilog/PIPO_blockcipher_verilog/simulation/modelsim
+vPIPO_blockcipher_verilog
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1638203254
+!i10b 1
+!s100 EYJcEi@<^BW<@^YlYF;hf2
+I[B8l9TMW0eAdg3`>UlOiB2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 PIPO_blockcipher_verilog_svo_unit
+S1
+R0
+w1638203191
+8PIPO_blockcipher_verilog.svo
+FPIPO_blockcipher_verilog.svo
+L0 32
+OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1638203253.000000
+!s107 PIPO_blockcipher_verilog.svo|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+.|PIPO_blockcipher_verilog.svo|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+.
+n@p@i@p@o_blockcipher_verilog

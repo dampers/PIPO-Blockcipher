@@ -1,0 +1,8 @@
+import PIPODefinitions::*;
+
+module make_FirstData(input state_t in,
+							output state_t out);
+							
+		assign out = in;
+		
+endmodule 
